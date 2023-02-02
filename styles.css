@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+    #sections {
+        margin: 0%;
+        box-sizing: border-box;
+        border-left: 80px solid aqua;
+        padding-left: 0;
+        padding-right: 0%;
+    }
+    .foto {
+        order: initial;
+    }    
+}
+
+@media (max-width: 767.98px) {
+    #sections {
+        margin: 0%;
+        box-sizing: border-box;
+        border-left: 0;
+        padding-left: 0;
+        padding-right: 0%;
+    }    
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#foto {
+    float: right;
+    margin-top: 5px;
+    border-radius: 10%;
+}
+
+#item {
+    padding-left: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#name {
+    float: left;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+}
+
+#relleno {
+    visibility: hidden;
+}
+
+#principal {
+    background-color: aqua;
+}
+#title {
+    background-color: rgb(0, 124, 124);
+    margin: 0%;
+}
+#list{
+    padding: 5% 0% 20% 0%;
+    margin-right: 0%;
+}
+#id {
+    padding: 10%;
+}
+
+
+
+#item {
+    padding: 25px;
+    padding-left: 5%;
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: larger;
+}
+item:hover {
+    background-color: rgb(0, 124, 124); 
+    color: antiquewhite;
+    border-bottom: 1px groove rgb(0, 124, 124);
+}
+
+ul {
+    
+    margin: 0%;
+}
+
+#navegacion {
+    background-color: aqua;
+    padding: 8px 12px 8px 12px;
+    border-color: aqua;
+}
